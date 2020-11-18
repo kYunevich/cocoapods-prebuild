@@ -1,0 +1,201 @@
+PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.4.0)
+  - Differentiator (4.0.1)
+  - FittedSheets (2.2.2)
+  - InputMask (6.0.0)
+  - KeychainAccess (4.2.1)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - MarqueeLabel (4.0.5)
+  - MaterialComponents/ActivityIndicator (119.1.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/Palettes (119.1.0)
+  - MaterialComponents/private/Application (119.1.0)
+  - MDFInternationalization (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - NotificationBannerSwift (3.0.2):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - NYTPhotoViewer (5.0.5):
+    - NYTPhotoViewer/AnimatedGifSupport (= 5.0.5)
+    - NYTPhotoViewer/Core (= 5.0.5)
+  - NYTPhotoViewer/AnimatedGifSupport (5.0.5):
+    - NYTPhotoViewer/Core
+    - PINRemoteImage/iOS (~> 3.0.1)
+    - PINRemoteImage/PINCache
+  - NYTPhotoViewer/Core (5.0.5)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxDocumentPicker (0.2.0):
+    - RxCocoa
+    - RxSwift
+  - RxMediaPicker (2.0.0):
+    - RxSwift (>= 5.0.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SnapKit (5.0.1)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - Swinject (2.7.1)
+  - TOInsetGroupedTableView (1.1.0)
+
+DEPENDENCIES:
+  - Action
+  - ActiveLabel
+  - FittedSheets
+  - InputMask
+  - KeychainAccess
+  - Kingfisher
+  - MaterialComponents/ActivityIndicator
+  - Moya/RxSwift
+  - NotificationBannerSwift (~> 3.0.0)
+  - "NSObject+Rx"
+  - NYTPhotoViewer
+  - RealmSwift (~> 3.20.0)
+  - RxCocoa
+  - RxDataSources
+  - RxDocumentPicker
+  - RxMediaPicker (from `https://github.com/RxSwiftCommunity/RxMediaPicker.git`)
+  - RxSwift
+  - RxSwiftExt
+  - SnapKit
+  - Socket.IO-Client-Swift (~> 15.2.0)
+  - Swinject
+  - TOInsetGroupedTableView
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - ActiveLabel
+    - Alamofire
+    - Differentiator
+    - FittedSheets
+    - InputMask
+    - KeychainAccess
+    - Kingfisher
+    - MarqueeLabel
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
+    - Moya
+    - NotificationBannerSwift
+    - "NSObject+Rx"
+    - NYTPhotoViewer
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxDocumentPicker
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Swinject
+    - TOInsetGroupedTableView
+
+EXTERNAL SOURCES:
+  RxMediaPicker:
+    :git: https://github.com/RxSwiftCommunity/RxMediaPicker.git
+
+CHECKOUT OPTIONS:
+  RxMediaPicker:
+    :commit: e86a8f91128a2505a7aa0d003ed30cd3d7c4b97e
+    :git: https://github.com/RxSwiftCommunity/RxMediaPicker.git
+
+SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  FittedSheets: e76647375838b856b7e7916021deb7e7e1527ecc
+  InputMask: f340bdc905a4c4f377e44d865f129f752ac2383d
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  MaterialComponents: 04f29e3ec4965c29a48e13a626a0ab4bbd19e289
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  NYTPhotoViewer: 6f50ea92f265d54a350b39a7ab7a1b91ca487ff6
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxDocumentPicker: f3dc33b7b9b3e016e73c503800f15f6df151c66f
+  RxMediaPicker: 0a39e0c97c00d139e393065ca76822593a5cc99e
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  TOInsetGroupedTableView: 4da3c3f22fe53c474f133bdb1fcc2f25b094aff6
+
+PODFILE CHECKSUM: 4dde6ccfce6157c7a4c0f00922396e17974a77a0
+
+COCOAPODS: 1.8.4
